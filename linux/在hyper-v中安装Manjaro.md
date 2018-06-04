@@ -2,7 +2,7 @@
 ## 在hyper-v中新建设备、硬盘、网络连接
 ## 安装中可能遇到的错误：
 
-1. 我的电脑是nvidia和intel混合双显卡，在安装时候遇到了以下错误
+### 1. 我的电脑是nvidia和intel混合双显卡，在安装时候遇到了以下错误
 
 
 ```bash
@@ -17,7 +17,7 @@ A start job is running for livemedia mhwd scripe(xx s/no limit)
 需要在安装的时候，进入安装界面后选择driver=free上，按键盘E键，进入编辑模式，然后手动将free改成intel。
 然后按F10保存后boot启动。
 
-2. 上述方法在我用电脑时候好用，我这里用的是hyper-v虚拟机无效。进去之后还是不现实图形化界面
+### 2. 上述方法在我用电脑时候好用，我这里用的是hyper-v虚拟机无效。进去之后还是不现实图形化界面
 
 
 ![st.png](https://github.com/Luomusha/blog/blob/master/st.png)
@@ -25,10 +25,19 @@ A start job is running for livemedia mhwd scripe(xx s/no limit)
 
 在进入之后不显示界面
 
+按住Ctrl+alt+F3进入命令行，输入以下命令：
+
+
 ```bash
+pacman -Syy
 pacman -R nvidia nvidia-libgl lib32-nvidia-libgl
 pacman -S xf86-video-fbdev
 ```
+
+上面的命令的意思是：
+1.包管理器pacman同步（更新）
+2.卸载nvidia驱动
+3.安装intel驱动
 
 
 参考链接
