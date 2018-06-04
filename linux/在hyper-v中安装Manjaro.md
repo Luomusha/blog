@@ -27,7 +27,7 @@ A start job is running for livemedia mhwd scripe(xx s/no limit)
 
 在进入之后不显示界面
 
-按住Ctrl+alt+F3进入命令行，输入以下命令：
+按住Ctrl+alt+F3进入命令行，输入以下命令(可能需要家sudo)：
 
 
 ```bash
@@ -44,6 +44,7 @@ startx
 3.安装intel驱动
 4.开启图形化桌面
 
+![done.png](https://github.com/Luomusha/blog/blob/master/done.png)
 
 参考链接
 https://bbs.archlinux.org/viewtopic.php?id=211846
