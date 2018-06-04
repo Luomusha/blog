@@ -48,3 +48,7 @@ startx
 
 参考链接
 https://bbs.archlinux.org/viewtopic.php?id=211846
+
+# 如果你没有安装成功，那么一定是你被墙了
+# 如果你更新报错，那么一定是你被墙了
+# 如果你软件build失败，那么一定是你被墙了
