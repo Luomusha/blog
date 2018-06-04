@@ -22,7 +22,7 @@ A start job is running for livemedia mhwd scripe(xx s/no limit)
 上述方法在我用电脑时候好用，我这里用的是hyper-v虚拟机无效。进去之后还是不现实图形化界面
 
 
-![st.png](https://github.com/Luomusha/blog/blob/master/st.png)
+![st.png](https://github.com/Luomusha/blog/blob/master/assets/st.png)
 
 
 在进入之后不显示界面
@@ -44,7 +44,7 @@ startx
 3.安装intel驱动
 4.开启图形化桌面
 
-![done.png](https://github.com/Luomusha/blog/blob/master/done.png)
+![done.png](https://github.com/Luomusha/blog/blob/master/assets/done.png)
 
 参考链接
 https://bbs.archlinux.org/viewtopic.php?id=211846
