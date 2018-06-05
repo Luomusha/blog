@@ -55,8 +55,26 @@ startx
 https://bbs.archlinux.org/viewtopic.php?id=211846
 https://wiki.archlinux.org/index.php/Hyper-V
 
+## 分辨率调整
+在安装完毕后，hyper-v的驱动只支持一个很小的固定分辨率。我们需要设置grub引导系统参数。
+
+```
+sudo vim /etc/default/grub
+```
+编辑grub文件
+在
+```
+GRUB_CMDLINE_LINUX_DEFAULT
+```
+一项中append一个参数：
+```
+video=hyperv_fb:1920x1080
+```
+注意上面是小写的‘X’，不是‘*’
+
 
 
 # 如果你没有安装成功，那么一定是你被墙了
 # 如果你更新报错，那么一定是你被墙了
 # 如果你软件build失败，那么一定是你被墙了
+
