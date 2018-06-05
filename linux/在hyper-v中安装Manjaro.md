@@ -29,6 +29,11 @@ A start job is running for livemedia mhwd scripe(xx s/no limit)
 
 按住Ctrl+alt+F3进入命令行，输入以下命令(可能需要家sudo)：
 
+```
+Graphical programs can easily be run via Xorg via the xf86-video-fbdev package. Simply install it and the window manager or desktop environment you wish to use, and you should be able to start X without issue.
+```
+
+所以hyper-v不是全虚拟化，不能直接安装显卡驱动，而是用这个xf86-video-fbdev包做驱动
 
 ```bash
 pacman -Syy
@@ -41,13 +46,16 @@ startx
 上面的命令的意思是：
 1.包管理器pacman同步（更新）
 2.卸载nvidia驱动
-3.安装intel驱动
+3.安装hyper-v驱动
 4.开启图形化桌面
 
 ![done.png](https://github.com/Luomusha/blog/blob/master/assets/done.png)
 
 参考链接
 https://bbs.archlinux.org/viewtopic.php?id=211846
+https://wiki.archlinux.org/index.php/Hyper-V
+
+
 
 # 如果你没有安装成功，那么一定是你被墙了
 # 如果你更新报错，那么一定是你被墙了
