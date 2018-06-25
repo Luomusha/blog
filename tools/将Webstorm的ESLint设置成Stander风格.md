@@ -27,3 +27,6 @@ Continuation indent  =  2
 ![vue-indent.png](https://github.com/Luomusha/blog/blob/master/assets/vue-indent.png)
 
 添加script
+
+## 5.添加格式化快捷键 
+搜索keymap 找到快捷键面板。搜索fix，找到ESLint fix。设置为CTRL+ALT+;
