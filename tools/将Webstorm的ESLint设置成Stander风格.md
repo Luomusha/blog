@@ -13,3 +13,17 @@ Continuation indent  =  2
 
 
 ![standard.png](https://github.com/Luomusha/blog/blob/master/assets/standard.png)
+
+
+## 3.修改html缩进 Code Style=>HTML=>Tabs and Indents
+
+修改成2 2 4
+
+## 4.修正vue文件缩进 Code Style=>HTML=>other
+
+找到Do not indent children of:
+
+
+![vue-indent.png](https://github.com/Luomusha/blog/blob/master/assets/vue-indent.png)
+
+添加vue
