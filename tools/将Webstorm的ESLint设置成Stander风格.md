@@ -26,4 +26,4 @@ Continuation indent  =  2
 
 ![vue-indent.png](https://github.com/Luomusha/blog/blob/master/assets/vue-indent.png)
 
-添加vue
+添加script
