@@ -41,4 +41,14 @@ www-data:x:33:33:www-data:/var/www:/bin/bash
 我们在装完系统后，需要手动启用这个账户，才能用。
 首先修改...todo
 
+#  使用
 
+## 生成key
+
+ ```
+ ssh-keygen
+ ```
+## 在gitlab/github中添加sshkey。
+略
+
+## 安装ci工具。
