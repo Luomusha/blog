@@ -1,7 +1,12 @@
 pipeline {
-  agent none
+  agent {
+    node {
+      label 'my-node-proxy'
+    }
+
+  }
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh 'echo "hello world"'
       }
