@@ -63,6 +63,7 @@ yarn add git@10.0.0.9:zhuchuanpeng/example_repo.git#example_tag
 yarn add http://10.0.0.9:9005/zhuchuanpeng/example_repo.git#example_tag
 
 npm install git@10.0.0.9:zhuchuanpeng/example_repo.git#example_tag
+npm install git+ssh://cloud@172.16.71.3:chuanpeng1.zhu/fr-circle-css-component.git
 npm install http://10.0.0.9:9005/zhuchuanpeng/example_repo.git#example_tag
 ```
 
