@@ -36,7 +36,7 @@ https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated
 |---|---|---|
 |List repositories for the authenticated user	|GET| /user/repos|
 |List repositories for a user	|GET| /users/:username/repos|
-|List organization repositories	｜GET｜ /orgs/:org/repos|
+|List organization repositories	|GET| /orgs/:org/repos|
 |List public repositories	|GET| /repositories|
 |Create a repository for the authenticated user	|POST| /user/repos|
 |Create an organization repository	|POST| /orgs/:org/repos|
