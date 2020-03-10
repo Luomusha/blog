@@ -80,20 +80,23 @@ https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated
 
 然后对于其他的资源集合，用复数的资源名称作为域。
 例如：
+```
 /repos
 /users
 /orgs
-
+```
 对于特定资源的访问，需要在api中加入特定条件。
 例如：
+```
 /repos/:owner/:repo
 /repos/:owner/:repo/tags
-
+```
 这样的设计方法很像数据库中的Schema方法。
 例如：
+```
 /repos/:owner/:repo  => Repo.findByOwner(repo)
 /orgs/:org/repos => Org.findRepoByOrg(org)
-
+```
 
 
 
