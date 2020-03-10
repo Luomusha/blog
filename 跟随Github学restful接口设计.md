@@ -67,7 +67,7 @@ https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated
 
 ![GITHUB](https://github.com/Luomusha/blog/blob/master/assets/GITHUB.png)
 
-上图为不全面总结，只为说明距离。
+上图为不全面总结，只为说明举例。
 
 看到上面的图相信不用我多说已经很明了了。
 
