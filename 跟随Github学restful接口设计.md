@@ -36,7 +36,7 @@ https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated
 |---|---|---|
 |List repositories for the authenticated user	|GET| /user/repos|
 |List repositories for a user	|GET| /users/:username/repos|
-|List organization repositories	GET /orgs/:org/repos|
+|List organization repositories	｜GET｜ /orgs/:org/repos|
 |List public repositories	|GET| /repositories|
 |Create a repository for the authenticated user	|POST| /user/repos|
 |Create an organization repository	|POST| /orgs/:org/repos|
@@ -61,3 +61,5 @@ https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated
 上面是我将接口整理成了表格。然而并不能直观总结出规律。
 
 于是有了下面的
+
+![GITHUB](https://github.com/Luomusha/blog/blob/master/assets/GITHUB.png)
