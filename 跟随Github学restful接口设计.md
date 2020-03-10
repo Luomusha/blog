@@ -57,9 +57,52 @@ https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated
 |Delete a repository	|DELETE| /repos/:owner/:repo|
 |Transfer a repository	|POST| /repos/:owner/:repo/transfer|
 |Create a repository dispatch event	|POST| /repos/:owner/:repo/dispatches|
+|Create a repository using a template	|POST| /repos/:template_owner/:template_repo/generate|
+|Create a repository using a template	|POST| /repos/:template_owner/:template_repo/generate|
+
 
 上面是我将接口整理成了表格。然而并不能直观总结出规律。
 
 于是有了下面的
 
 ![GITHUB](https://github.com/Luomusha/blog/blob/master/assets/GITHUB.png)
+
+上图为不全面总结，只为说明距离。
+
+看到上面的图相信不用我多说已经很明了了。
+
+单为了记录，还是针对说明一下。
+首先针对当前登录用户资源，提供一个特殊的域“user”
+如果访问接口资源具有以下属性，则需要挂在user域下————这是当前登录用户在操作自己的资源。
+例如：
+给当前用户自己新建一个仓库
+查看当前用户仓库列表。
+
+然后对于其他的资源集合，用复数的资源名称作为域。
+例如：
+/repos
+/users
+/orgs
+
+对于特定资源的访问，需要在api中加入特定条件。
+例如：
+/repos/:owner/:repo
+/repos/:owner/:repo/tags
+
+这样的设计方法很像数据库中的Schema方法。
+例如：
+/repos/:owner/:repo  => Repo.findByOwner(repo)
+/orgs/:org/repos => Org.findRepoByOrg(org)
+
+
+
+
+写的比较凌乱。后续有空再完善。
+
+
+
+
+
+
+
+
