@@ -1,6 +1,8 @@
 # blog
 My blog
 
+# 整个项目迁移至wiki
+https://github.com/Luomusha/blog/wiki
 
 ## 目录
 ------------------
