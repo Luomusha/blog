@@ -3,6 +3,12 @@
 Electron框架简述：能给nodejs项目加壳成为desktop的框架
 Next.js：目前最流行的react服务端渲染框架
 
+## 在Electron中使用next.js并不是一个好主意。
+
+- Next.js启动时间开销巨大，每次启动App都需要等待很久才有相应。
+- Next.js的服务端API不完善，例如没有全局变量、无法拿到原始request，response对象等问题。
+- Next.js不支持socket等问题
+
 ## Electron
 
 - Electron提供了nodejs运行环境
